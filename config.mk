@@ -4,4 +4,6 @@ PRODUCT_PACKAGES += \
     GalleryGo \
     GContacts \
     FirefoxLite \
+    KimchiRecorder \
+    Musicolet \
     RemovePackages
