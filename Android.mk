@@ -81,7 +81,7 @@ LOCAL_MULTILIB := both
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := KimciRecorder
+LOCAL_MODULE := KimchiRecorder
 LOCAL_MODULE_TAGS := optional
 LOCAL_SRC_FILES := app/$(LOCAL_MODULE).apk
 LOCAL_CERTIFICATE := PRESIGNED
