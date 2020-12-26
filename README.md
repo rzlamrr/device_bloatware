@@ -13,18 +13,18 @@ this repo is created.
 #### 1. clone this repo to device/bloatware (Why this path? the path name seems funny for me)
 #### 2. add this line to your device tree, either in device.mk or <romname>_<devicename>.mk
 
-		$(call inherit-product-if-exists, device/bloatware/config.mk)
+```bash
+$(call inherit-product-if-exists, device/bloatware/config.mk)
+```
 		
 #### 3. uncomment/comment or maybe delete some apps which you didn't need, for example
 
 #####	 To disable, add # to the product_packages and also the packages
-	# Via Browser
-    #PRODUCT_PACKAGES += \
-    #   Via
-	
-#####	 To enable, remove # near the product_packages and also the packages (Don't remove the # on the description, as it would make build failed)
-	# Via Browser
-    PRODUCT_PACKAGES += \
-       Via
-	   
+```bash
+#    Via
+```
+#####	 To enable, remove # near the product_packages and also the packages (Don't remove the # on the description, as it would make build failed
+```bash
+    Via
+```   
 Okay, just like that and happy build.
